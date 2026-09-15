@@ -1,0 +1,49 @@
+.Top{
+    text-align: center;
+    background-color: #e4f9f5;
+    padding-top: 70px;
+    color: #66bfbf;
+    margin-bottom: 70px;
+    
+}
+.Top>h1{
+    font-family: "Sacramento", cursive;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.Top>p{
+    font-family: "Sacramento";
+    font-size: 20pt;
+    padding-top: 15pt;
+    font-weight: bold;
+
+}
+.Topcloud{
+    padding-left: 600px;
+    padding-bottom: 70px;
+}
+.Bottomcloud{
+    padding-top: 70px;
+    padding-right: 600px;
+}
+#hero{
+    color: #66bfbf !important;
+    font-size: 30pt !important;
+    font-weight:400 !important;
+
+}
+h2{
+    color: #66bfbf !important;
+    font-weight: 450 !important;
+    margin-top: 100px !important;
+    margin-bottom: 50px !important;
+}
+.parent{
+   display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
